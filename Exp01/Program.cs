@@ -10,7 +10,7 @@ void CreateFillArray()
     for (int j = 0; j < array.GetLength(1); j++)
     {
       array[i, j] = Convert.ToDouble(Random.Shared.Next(-100, 100)) / 10;
-      Console.Write($"|{array[i, j], 5} | ");
+      Console.Write($"|{array[i, j], 3} | ");
     }
     Console.WriteLine();
   }
